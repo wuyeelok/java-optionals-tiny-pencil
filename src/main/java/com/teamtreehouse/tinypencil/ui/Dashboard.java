@@ -17,7 +17,7 @@ public class Dashboard {
 
   public void displayWinner(Party party) {
     displayHeading("Winner");
-    // FIXME:  THESE OPTIONALS ARE UGLYYYYYYY!!!!!
+
     System.out.println(party.getAdjustedWinner());
   }
 
